@@ -37,13 +37,9 @@ header nav ul li a {
 }
 
 main {
-    display:grid;
-    grid-template-columns: 1fr;
     padding: .5em;
 }
 
 footer {
-    display:grid;
-    grid-template-columns: 1fr;
     padding: .5em;
 }
