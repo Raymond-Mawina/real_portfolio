@@ -40,6 +40,11 @@ main {
     padding: .5em;
 }
 
+main h1{
+    margin: 0;
+    padding: 0;
+}
+
 footer {
     padding: .5em;
 }
