@@ -1,0 +1,86 @@
+html {
+  font-size: clamp(1rem, 0.65rem + 1.75vw, 1.5rem);
+}
+
+section, article {
+  max-inline-size: 66ch;
+  line-height: 1.2;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#about,#work,#history,#blog {
+    min-block-size: 100dvh;
+}
+
+header {
+    margin:0;
+    background-color: bisque;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5em;
+    box-sizing: border-box;
+    inline-size: 100dvw;
+}
+
+
+header img {
+    inline-size: 4rem;
+    block-size: 4rem;
+    border-radius: 2.5em;
+    max-block-size: 4em;
+}
+
+header nav {
+    background-color: pink;
+    border-radius: 3em;
+    block-size: 4em;
+    align-content: center;
+}
+
+ul{
+    list-style-type: none;
+ 
+    
+    display: flex;
+    flex-direction: column;
+    padding:0;
+    margin:0;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    min-inline-size: 15em;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color:darkcyan
+}
+
+
+
+main {
+    padding: .5em;
+    padding-inline: 8%;
+}
+
+main h1{
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    padding: .5em;
+}
