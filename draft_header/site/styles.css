@@ -1,0 +1,60 @@
+/* style the body */
+body {
+  font-size: small;
+  padding: .2rem;
+  margin: 0;
+}
+
+/* style the header/container */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aqua;
+  color: black;
+  padding-block: .3rem;
+  padding-inline: .6rem;
+  border-radius: .6rem;
+}
+
+/* style the headshot */
+header img {
+    inline-size: 4rem;
+    block-size: 4rem;
+    border-radius: 2rem;
+}
+
+/* style the navigation */
+header nav {
+    background-color: antiquewhite;
+    color: black;
+    inline-size: 60%;
+    padding: .8rem;
+    border-radius: .4rem;
+    block-size: 1.2rem;
+}
+
+nav ul{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin:0;
+    list-style-type: none;
+}
+
+nav ul li {
+    inline-size: 33%;
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:black;
+}
+
+nav ul li a:hover, a:active {
+    font-weight:400;
+    font-size: medium;
+    text-shadow: rgb(105, 102, 102) 0px 5px 10px;
+}
